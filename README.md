@@ -1,1 +1,1 @@
-# Schoolmanagemeny
+# Schoolmanagement
