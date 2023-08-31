@@ -1,0 +1,326 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <style>
+          /* Make the image fully responsive */
+            .carousel-inner img {
+              padding-left: 2%;
+              width: 98%;
+              height: 85%;
+            }
+
+
+
+            li{
+               padding-top: 20px;
+               background-color: black;
+               display: inline-block;
+               float: right;
+            }
+   
+            a{
+               color:rgb(255, 0, 0);
+               text-decoration:solid;
+               font-size: 40px;
+               padding: 7%;
+               font-family:'Times New Roman', Times, serif;
+             }
+   
+             body{
+               background-image: url('/static/images/download1.jpg');
+           }
+        </style>
+
+    </head>
+    <body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">D.A.V</a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="/signup/">Join Us</a>
+        </li>
+  
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Users</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/login/">Student</a>
+            <a class="dropdown-item" href="#">Faculty</a>
+            <a class="dropdown-item" href="">Demo</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Programs</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Classes 0-4</a>
+              <a class="dropdown-item" href="#">Classes 5-10</a>
+              <a class="dropdown-item" href="#">Classes 10+2</a>
+            </div>
+          </li>
+          <div >
+            <li class="nav-item" style="padding-right: 0%;">
+              <a class="nav-link" style="size: initial;" href="/weather/">Weather</a>
+            </li>
+          </div>
+      
+<div >
+      <li class="nav-item" style="padding-right: -10%;">
+        <a class="nav-link" style="padding-right: -20%; size: initial;" href="#">About</a>
+      </li>
+    </div>
+  </ul>
+      <!-- Links -->
+  
+      <form class="form-inline">
+        <div class="md-form my-0">
+          <input class="form-control mr-sm-2" type="text" style="width: 130%; margin-left: -55%;" placeholder="Search" aria-label="Search">
+        </div>
+      </form>
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+
+  
+  
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      <li data-target="#demo" data-slide-to="5"></li>
+      <li data-target="#demo" data-slide-to="6"></li>
+      <li data-target="#demo" data-slide-to="7"></li>
+      <li data-target="#demo" data-slide-to="8"></li>
+    </ul>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../static/images/sch1.jpg" alt="CAMPUS" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>SCHOOL CAMPUS</h3><br>
+          <p>Our school is one of the biggest and most famous schools in the country. </p>
+        </div>   
+      </div>
+        <div class="carousel-item">
+            <img src="../static/images/sch0.jpg" alt="campus2" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>INNER CAMPUS</h3>
+              <p>Offer students an opportunity to exchange phone numbers and, for those who are interested, help them create a WhatsApp chat group. It can sometimes be difficult for a student to ask for a classmate’s phone number.</p>
+            </div> 
+          </div>  
+              <div class="carousel-item">
+                <img src="../static/images/sch2.jpg" alt="library" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>LIBRARY</h3>
+                  <p>A library is a place where many books are kept. Most libraries are public and let people take the books to use in their home. Most libraries let people borrow books for several weeks.Some belong to institutions, for example, companies, churches, schools, and universities.</p>
+                </div>  
+              </div> 
+                  <div class="carousel-item">
+                    <img src="../static/images/sch5.jpg" alt="class" width="1100" height="500">
+                    <div class="carousel-caption">
+                      <h3>CLASS</h3>
+                      <p>We had great co-ordations</p>
+                    </div>  
+                  </div> 
+
+                      <div class="carousel-item">
+                        <img src="../static/images/sch4.jpg" alt="smart classes" width="1100" height="500">
+                        <div class="carousel-caption">
+                          <h3>SMART CLASSES</h3>
+                          <p>For smart study we have smart classes with full specifications.</p>
+                        </div>  
+                      </div>
+                          <div class="carousel-item">
+                            <img src="../static/images/sch3.jpg" alt="poverty" width="1100" height="500">
+                            <div class="carousel-caption">
+                              <h3>We Give equal opportunity to all.</h3>
+                              <p>Poverty means not having enough money for basic needs such as food, drinking water, shelter, or toileteries. Many people in different countries live in poverty, especially in developing areas of West and Sub-Saharan Africa, Latin America and some parts of Asia There are different ways to measure poverty.</p>
+                            </div>   
+
+      </div>
+      <div class="carousel-item">
+        <img src="/static/images/sch6.jpg" alt="Chicago" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>School Fest</h3>
+          <p>People celebrate national festivals to spread the message of freedom, peace and harmony across the nation.  Gandhi Jayanti, Independence Day and Republic Day are the three national festivals in the country. The celebration of Republic Day on 26 January signifies the democracy in an independent nation</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="/static/images/sch8.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>We Do Party As Well As</h3>
+          <p>Music is way of life</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="/static/images/sch7.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>We All Miss You</h3>
+          <p>Music is way of life</p>
+        </div>   
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+<br>
+<br>
+<br>
+<!--/.Cards-->
+  <div class="container">
+    <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: darkred;font-size: 435%;">"Thoughts"</h2><br>
+    <div class="card-deck">
+      <div class="card bg-primary">
+        <div class="card-body text-center">
+          <p class="card-text" style="font-family: cursive; font-size:x-large;">“Education is the passport to the future,<br> for tomorrow belongs to those who prepare for it today.”
+            <p style="font-family: monospace;font-size: 300%;color:mintcream;">_________Malcolm X</p></p>
+         
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-body text-center">
+          <p class="card-text" style="font-family: cursive; font-size:x-large;">“Anyone who has never made a mistake has never tried anything new.”
+            <p style="font-family: monospace;font-size: 300%;color :mintcream;">_________Albert Einstein</p></p>
+        </div>
+      </div>
+      <div class="card bg-success">
+        <div class="card-body text-center">
+          <p class="card-text" style="font-family: cursive; font-size:x-large;">“The best teachers are those who show you where to look but don’t tell you what to see.”
+            <p style="font-family: monospace;font-size: 300%;color :mintcream; ">_________Alexandra K.Trenfor</p></p>
+        </div>
+      </div>
+      <div class="card bg-danger" >
+        <div class="card-body text-center">
+          <p class="card-text" style="font-family: cursive; font-size:x-large;">"Success is not final; failure is not fatal: It is the courage to continue that counts."
+            <p style="font-family: monospace;font-size: 270%;color :mintcream; ">___________Winston S.Churchill</p>
+        </div>
+      </div>  
+       </div>
+  </div>
+<br>
+<br>
+<br>
+<!--/.small Cards-->
+
+<div class="container">
+  
+  <p style="font-family:Verdana, Geneva, Tahoma, sans-serif; color: lawngreen;font-size: 400%;">Important Links</p><br>
+  
+  <div class="card-columns">
+    <div class="card bg-primary">
+      <div class="card-body text-center">
+        <a class="card-text" href="/signup/" style="color: black;width: 10%;height: 2%;font-size: 130%;">"Now Addmissions Are Open."</a>
+      </div>
+    </div>
+    <div class="card bg-warning">
+      <div class="card-body text-center">
+        <a class="card-text" href="#" style="color: black;width: 10%;height: 2%;font-size: 130%;">""Last Year Results""</a>
+      </div>
+    </div>
+    <div class="card bg-success">
+      <div class="card-body text-center">
+        <a class="card-text" href="/login/" style="color: black;width: 10%;height: 2%;font-size: 130%;">*Join Online Classes*</a>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center">
+        <a class="card-text" href="#" style="color: black;width: 10%;height: 2%;font-size: 130%;">"Latest Notice"</a>
+      </div>
+    </div>  
+    <div class="card bg-light">
+      <div class="card-body text-center">
+        <a class="card-text" href="#" style="color: black;width: 10%;height: 2%;font-size: 130%;">Our History</a>
+      </div>
+    </div>
+    <div class="card bg-info">
+      <div class="card-body text-center">
+        <a class="card-text" href="#" style="color: black;width: 10%;height: 2%;font-size: 130%;">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+
+<!--/.small Cards-->
+
+
+<div class="container">
+  <h1 style="color: orange;" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOur Director&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOur Principal
+  <br><p style="color: bisque;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(D.A.V)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(D.A.V)</p></h1>
+  
+  <div class="card" style="width:400px;display: inline-block;">
+    <img class="card-img-top" src="../static/images/Achyuta_Samanta_Photo1.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Achyuta Samanta</h4>
+      <p class="card-text">Achyuta Samanta (born 20 January 1965) is the founder of Dayanand Anglo-Vedic Education Society (D.A.V) which provides free accommodation, food, healthcare, and education from class 1 to 12</p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+     </div>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    
+  <div class="card" style="width:400px;display: inline-block;&nbsp;&nbsp;">
+    <img class="card-img-top" src="../static/images/principal.jpg" alt="Card image" style="width:100%;height: 57%;">
+    <div class="card-body">
+      <h4 class="card-title">Vandana Kumari</h4>
+      <p class="card-text">Vandana Kumari (born 22 September 1985) is the Principal of Dayanand Anglo-Vedic Education Society (D.A.V) which provides free accommodation, food, healthcare, and education from class 1 to 12</p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+     </div>
+  </div>
+  <br><br><br>
+
+
+<!--Comment Box-->>
+
+
+<div class="container">
+  <h1 style="color: cornflowerblue;">Your Valuable FeedBack </h1>
+  <p style="color:yellowgreen;font-size:x-large;">We will really happy to hear you!!!</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="comment" style="font-size: x-large;color: whitesmoke;">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<center><h1 style="color: crimson;font-size: 400%;font-family: 'Times New Roman', Times, serif;">_____"Thanks For Visiting Us"_____</h1></center>
+<center><h1 style="color: crimson;font-size: 400%;font-family: 'Times New Roman', Times, serif;">_____"Do Visit Again"_____</h1></center><br><br>
+    </body>
+</html>

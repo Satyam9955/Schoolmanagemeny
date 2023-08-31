@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            body{
+               
+              background-image: url('/static/images/s3.jpg');
+              background-position: center;
+              background-size: 100%;
+            }
+
+            div{
+                border: 1px solid rgb(14, 1, 1);
+                height: 50%;
+                width: 43%;
+                border-radius: 45px;
+                border-width:8px;
+                margin-left: 27%;
+                margin-top: 10%;
+                background-color: dimgrey;
+            }
+            
+
+
+        </style>
+
+    </head>
+    <body><div>
+        {% for i,j in data.items() %}
+        <h2 style="color: cornflowerblue;">{{i}}:{{j}}</h2>
+        {% endfor %}
+    </div>
+    </body>
+</html>
